@@ -1,0 +1,505 @@
+* {
+	box-sizing: border-box;
+}
+
+.main {
+	width: 1000px;
+	margin: auto;
+	border: 1px solid;
+	border-radius: 20px;
+	background-image: url(images/uxt.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.header{
+	height: 260px;
+	position: relative;
+}
+
+.logo {
+	background-image: url("images/world.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 200px;
+	margin-left: 10px;
+}
+
+.phone {
+	position: absolute;
+	right: 10%;
+	top: 14%;
+}
+
+li a {
+	text-decoration: none;	
+}
+
+.menu > li {
+	height: 50px;
+}
+
+li {
+	height: 40px;
+	display: inline-block;
+	width: 170px;
+	line-height: 40px;
+	text-align: center;
+}
+
+li ul.menu:hover {
+	background-color: #a2e98498;
+	height: 50px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+.nav {
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	height: 50px;
+	background-color: #979e94;
+}
+
+ul.menu {
+	position: relative;
+	left: 60px;
+}
+
+ul.menu > li {
+    float: left;
+	position: relative;
+}
+
+ul.menu > li > a {
+	display: block;
+	height: 50px;
+	line-height: 50px;
+    color: white;
+	text-decoration: none;
+}
+
+ul.menu li:hover {
+	background-color: blue;
+	
+}
+ul.menu li:hover a:hover {
+	background-color: blue;
+	
+}
+
+.more {
+	z-index: 1;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+	width: 170px;
+	height: 80px;
+    top: 48px;
+    left: 0;
+	background-color: #979e94;
+}
+
+ul.submenu > li {
+	display: block;
+}
+
+ul.submenu > li > a {
+    display: block;
+    color: white;
+    background-color: rgba(100, 112, 92, 0.61);
+	text-decoration: none;
+		
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+.winners {
+	float: left;
+	width: 50%;
+}
+
+.images_up {
+	margin: 5px;
+	position: relative;
+	left: 40px;
+	top: 10px;
+	display: inline-block;
+}
+
+.images_up img {
+	height: 230px;
+	width: 440px;
+	border-radius: 10px;
+}
+
+.images_dowm {
+	display: inline-block;
+	height: 210px;
+	width: 100%;
+}
+
+.spain {
+	margin: 5px;
+	position: relative;
+	left: 40px;
+	top: 20px;	
+	display: inline-block;
+}
+
+.spain img {
+	height: 130px;
+	width: 210px;
+	border-radius: 10px;
+}
+
+.italia {
+	margin: 5px;
+	position: relative;
+	left: 46px;
+	top: 20px;
+	display: inline-block;
+}
+
+.italia img {
+	height: 130px;
+	width: 210px;
+	border-radius: 15px;
+}
+
+.info {
+	display: inline-block;
+	position: relative;
+	width: 50%;
+}
+
+.vernagir {
+	display: inline-block;
+	position: relative;
+	left: 650px;
+	bottom: 820px;
+}
+
+.v_tak {
+	position: relative;
+	display: inline-block;
+	width: 24em; 
+	word-wrap: break-word;
+	left: 50px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.v_tak h1 {
+	text-align: center;
+}
+
+.down {
+	display: inline-block;
+	margin: 5px;
+}
+
+.footer {
+	border: 1px solid black;
+	border-radius: 0 0 20px 20px;
+	height: 70px;
+	line-height: 70px;
+}
+
+.logo_2014 {
+	background-image: url("images/brasil.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 150px;
+	margin-left: 15px;
+}
+
+.guyn {
+	background-color: rgb(0, 0, 0)
+}
+
+.world_cup_2014 {
+	position: relative;
+	display: inline-block;
+	width: 40em; 
+	word-wrap: break-word;
+	left: 30px;	
+	height: 300px;
+	overflow: hidden;
+}
+
+.fuleco {
+	position: relative;
+	display: inline-block;
+	left: 30px;
+}
+
+.fuleco img {
+	height: 260px;
+}
+
+.n_world_cup_2014 {
+	position: relative;
+	display: inline-block;
+	width: 40em; 
+	word-wrap: break-word;
+	left: 80px;	
+	height: 310px;
+	overflow: hidden;
+}
+
+.final_img {
+	position: relative;
+	display: inline-block;
+	left: 30px;
+	bottom: 50px;
+}
+
+.final_img img {
+	border-radius: 80px;
+}
+
+.logo_2010 {
+	background-image: url("images/south_africa.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 160px;
+	margin-left: 15px;
+}
+
+.world_cup_2010 {
+	position: relative;
+	display: inline-block;
+	width: 40em; 
+	word-wrap: break-word;
+	left: 30px;	
+	height: 300px;
+	overflow: hidden;
+}
+
+.zakumi {
+	position: relative;
+	display: inline-block;
+	left: 30px;
+}
+
+.zakumi img {
+	height: 260px;
+}
+
+.iniesta {
+	position: relative;
+	display: inline-block;
+	left: 30px;
+	bottom: 80px;
+}
+
+.iniesta img {
+	border-radius: 80px;	
+}
+
+.n_world_cup_2010 {
+	position: relative;
+	display: inline-block;
+	width: 40em; 
+	word-wrap: break-word;
+	left: 60px;	
+	height: 310px;
+	overflow: hidden;
+	margin: 10px;
+}
+
+.logo_2006 {
+	background-image: url("images/world_2006.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 160px;
+	margin-left: 15px;
+}
+
+.world_cup_2006 {
+	position: relative;
+	display: inline-block;
+	width: 40em; 
+	word-wrap: break-word;
+	left: 340px;
+	top: 50px;	
+	height: 300px;
+	overflow: hidden;
+}
+
+.mascot {
+	position: relative;
+	display: inline-block;
+	right: 620px;
+	top: 60px;
+}
+
+.mascot img {
+	height: 300px;
+}
+
+
+.n_world_cup_2006 {
+	position: relative;
+	display: inline-block;
+	width: 30em; 
+	word-wrap: break-word;
+	left: 50px;	
+	height: 310px;
+	overflow: hidden;
+	margin: 10px;
+}
+
+.zidane {
+	position: relative;
+	display: inline-block;
+	left: 70px;
+	bottom: 10px;
+}
+
+.zidane img {
+	border-radius: 80px;
+	height: 240px;
+}
+
+.minion {
+	border: 12px solid black;
+	display: inline-block;
+	position: relative;
+	top: 50px;
+	right: 70px;
+	min-height: 12px;
+}
+
+.minion img {
+	height: 240px;
+	line-height: 240px;
+}
+
+.minion_e {
+	display: inline-block;
+	height: 350px;
+}
+
+.entavernagir {
+	height: 90px;
+	display: inline-block;
+	position: relative;
+	bottom: 220px;
+	left: 110px;
+}
+
+.text {
+	display: inline-block;
+	position: relative;
+	left: 80px;
+	bottom: 80px;
+}
+
+.text p {
+	margin: 24px;
+}
+
+.about_text {
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+.about_down {
+	display: flex;
+}
+
+.education {
+	width: 50%;
+	margin-left: 34px;
+}
+
+.worl {
+	width: 50%;
+}
+
+.table {
+	width: 40%;
+	float: left;
+	margin: 40px;
+}
+
+.table td{
+	padding: 10px;
+}
+
+.map {
+	display: inline-block;
+}
+
+.media td {
+	padding: 10px;
+}
+
+.media td a {
+	color: black;
+}
+
+.media > table {
+	font-family: arial, sans-serif;
+    border-collapse: collapse;
+	width: 98%;
+	margin: 10px;
+}
+
+.media > table td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+.media > table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+.media > table tr:nth-child(odd) {
+    background-color: rgba(255, 0, 0, 0.322);
+}
+
+.media > h2 {
+	margin: 10px;
+}
+
+.website {
+	display: inline-block;
+	width: 48%;
+}
+
+.copyright {
+	text-align: center;
+	display: inline-block;
+	width: 48%;
+}
